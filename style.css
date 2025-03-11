@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1433477077279-9354d2d72f6b?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.main{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main h3{
+    color: white;
+    font-weight: 400;
+    
+}
+.part2{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+#sign{
+    padding: 6px;
+    border-radius: 18px;
+    border: 2px solid white;
+    
+}
+#sign:hover{
+    color: aquamarine;
+}
+section{
+    padding: 120px 220px;
+}
+
+
+section h1{
+    font-size: 80px;
+    color: white;
+
+}
+section h3{
+    font-size: 40px;
+    color: white;
+
+}
+section p{
+    color: white;
+    margin-top: 30px;
+}
+
+section button{
+    padding: 8px;
+    border-radius: 16px;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    margin-top: 30px;
+}
+section button:hover{
+    color: black;
+    
+}
